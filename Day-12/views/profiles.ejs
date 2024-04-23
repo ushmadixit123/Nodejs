@@ -9,5 +9,11 @@
     <h1>Welcome to the profile of <%= name %></h1>
     <h2>Age <%= age %></h2>
     <h3>Job <%= job %></h3>
+    <h3>Hobbies</h3>
+    <ul>
+        <% Hobbies.forEach((item)=>{ %>
+            <li><%= item %></li>
+        <%  }) %>
+    </ul>
 </body>
 </html>
